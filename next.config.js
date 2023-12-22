@@ -1,8 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  exportPathMap: function () {
+  async generateStaticPaths() {
+    // Generate static paths as needed
     return {
       "/": { page: "/" },
+      // Add other pages as needed
     };
   },
 };
