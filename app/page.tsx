@@ -12,17 +12,11 @@ export default function Home() {
           </code>
         </p>
       </div>
-      <img
-        className="rounded-full"
-        src="profile.png"
-        alt="profile"
-        width={"100%"}
-        height={"10%"}
-      />
+      <Image className="rounded-full" src="profile.png" alt="profile" />
 
       <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1] my-10">
         <p className={`m-0 max-w-[30ch] text-sm`}>
-          Hello, I'm Muhammad Haris, a passionate and dedicated Full Stack
+          Hello, I&apos;m Muhammad Haris, a passionate and dedicated Full Stack
           Developer with over 3 years of experience in MERN Stack. Currently
           based in Lahore, Pakistan.
         </p>
@@ -33,7 +27,7 @@ export default function Home() {
           {" "}
           <a href="https://getbootstrap.com" target="_blank" rel="noreferrer">
             {" "}
-            <img
+            <Image
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
               alt="bootstrap"
               width="40"
@@ -46,7 +40,7 @@ export default function Home() {
             rel="noreferrer"
           >
             {" "}
-            <img
+            <Image
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
               alt="css3"
               width="40"
@@ -55,7 +49,7 @@ export default function Home() {
           </a>{" "}
           <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
             {" "}
-            <img
+            <Image
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg"
               alt="docker"
               width="40"
@@ -64,7 +58,7 @@ export default function Home() {
           </a>{" "}
           <a href="https://expressjs.com" target="_blank" rel="noreferrer">
             {" "}
-            <img
+            <Image
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
               alt="express"
               width="40"
@@ -73,7 +67,7 @@ export default function Home() {
           </a>{" "}
           <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
             {" "}
-            <img
+            <Image
               src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
               alt="git"
               width="40"
@@ -82,7 +76,7 @@ export default function Home() {
           </a>{" "}
           <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
             {" "}
-            <img
+            <Image
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
               alt="html5"
               width="40"
@@ -95,7 +89,7 @@ export default function Home() {
             rel="noreferrer"
           >
             {" "}
-            <img
+            <Image
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
               alt="javascript"
               width="40"
@@ -104,7 +98,7 @@ export default function Home() {
           </a>{" "}
           <a href="https://jestjs.io" target="_blank" rel="noreferrer">
             {" "}
-            <img
+            <Image
               src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg"
               alt="jest"
               width="40"
@@ -113,7 +107,7 @@ export default function Home() {
           </a>{" "}
           <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
             {" "}
-            <img
+            <Image
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"
               alt="linux"
               width="40"
@@ -122,7 +116,7 @@ export default function Home() {
           </a>{" "}
           <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
             {" "}
-            <img
+            <Image
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
               alt="mongodb"
               width="40"
@@ -131,7 +125,7 @@ export default function Home() {
           </a>{" "}
           <a href="https://nodejs.org" target="_blank" rel="noreferrer">
             {" "}
-            <img
+            <Image
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
               alt="nodejs"
               width="40"
@@ -140,7 +134,7 @@ export default function Home() {
           </a>{" "}
           <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
             {" "}
-            <img
+            <Image
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
               alt="react"
               width="40"
@@ -149,7 +143,7 @@ export default function Home() {
           </a>{" "}
           <a href="https://redux.js.org" target="_blank" rel="noreferrer">
             {" "}
-            <img
+            <Image
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
               alt="redux"
               width="40"
@@ -162,7 +156,7 @@ export default function Home() {
             rel="noreferrer"
           >
             {" "}
-            <img
+            <Image
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
               alt="typescript"
               width="40"
